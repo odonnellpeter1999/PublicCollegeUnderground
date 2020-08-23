@@ -30,7 +30,7 @@ Firstly you must clone the project using `git clone` in the directory you wish t
 
 Then open the project folder and run `npm install` to install all dependencies
 
-You must not set two process variables
+You must now set two process variables
 
 First one is Email using `SET EMAIL=<YOUR-EMAIL>`
 
