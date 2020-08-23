@@ -1,0 +1,22 @@
+extends layout
+
+block content
+
+  br
+  br
+  h2.text-center All Modules in the School of Computer Science
+  .container
+    br
+    h5 Click on Module Title for more information.
+    table.table.border.rounded.shadow.p-3.bg-white
+      thead.thead-light
+        tr
+          th(scope='col') Title
+           th(scope='col') Module Code
+      tbody
+
+        each lecture in lecture_list
+          tr
+            td
+              a(href=lecture.url) #{lecture.title}
+            td #{lecture.lecture_code}

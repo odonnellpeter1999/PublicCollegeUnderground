@@ -1,0 +1,358 @@
+[
+
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP10030&TERMCODE=202000",
+"lecture_code": "COMP10030",
+"title": "Algorithmic Problem Solving"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP10040&TERMCODE=202000", 
+"lecture_code" : "COMP10040",
+"title" : "Introduction to Computer Architecture"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP10070&TERMCODE=202000", 
+"lecture_code" : "COMP10070",
+"title" : "Formal Foundations"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP10110&TERMCODE=202000", 
+"lecture_code" : "COMP10110",
+"title" : "Computer Programming I"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP10050&TERMCODE=202000", 
+"lecture_code" : "COMP10050",
+"title" : "Software Engineering Project 1"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP10120&TERMCODE=202000", 
+"lecture_code" : "COMP10120",
+"title" : "Computer Programming II"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=MATH10210&TERMCODE=202000", 
+"lecture_code" : "MATH10210",
+"title" : "Foundations of Mathematics for Computer Science I"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=MATH10220&TERMCODE=202000", 
+"lecture_code" : "MATH10220",
+"title" : "Foundations of Mathematics for Computer Science II"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=STAT10430&TERMCODE=202000", 
+"lecture_code" : "STAT10430",
+"title" : "Statistics with Python"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=MATH00010&TERMCODE=202000", 
+"lecture_code" : "MATH00010",
+"title" : "Introduction to Mathematics"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=MATH10200&TERMCODE=202000", 
+"lecture_code" : "MATH10200",
+"title" : "Matrix Algebra"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20020&TERMCODE=202000", 
+"lecture_code" : "COMP20020",
+"title" : "Digital Systems"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20070&TERMCODE=202000", 
+"lecture_code" : "COMP20070",
+"title" : "Databases and Information Systems I"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20110&TERMCODE=202000", 
+"lecture_code" : "COMP20110",
+"title" : "Discrete Mathematics for Computer Science"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20190&TERMCODE=202000", 
+"lecture_code" : "COMP20190",
+"title" : "Intro to Functional Programming"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20250&TERMCODE=202000", 
+"lecture_code" : "COMP20250",
+"title" : "Introduction to Java"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20050&TERMCODE=202000", 
+"lecture_code" : "COMP20050",
+"title" : "Software Engineering Project 2"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20180&TERMCODE=202000", 
+"lecture_code" : "COMP20180",
+"title" : "Intro to Operating Systems"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20280&TERMCODE=202000", 
+"lecture_code" : "COMP20280",
+"title" : "Data Structures"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20290&TERMCODE=202000", 
+"lecture_code" : "COMP20290",
+"title" : "Algorithms"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=MST20050&TERMCODE=202000", 
+"lecture_code" : "MST20050",
+"title" : "Linear Algebra II"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=MATH10200&TERMCODE=202000", 
+"lecture_code" : "MATH10200",
+"title" : "Matrix Algebra"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20030&TERMCODE=202000", 
+"lecture_code" : "COMP20030",
+"title" : "Web Design"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20090&TERMCODE=202000", 
+"lecture_code" : "COMP20090",
+"title" : "Introduction to Cognitive Science"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20170&TERMCODE=202000", 
+"lecture_code" : "COMP20170",
+"title" : "Introduction to Robotics"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP20200&TERMCODE=202000", 
+"lecture_code" : "COMP20200",
+"title" : "UNIX Programming"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30010&TERMCODE=202000", 
+"lecture_code" : "COMP30010",
+"title" : "Foundations of Computing"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30040&TERMCODE=202000", 
+"lecture_code" : "COMP30040",
+"title" : "Networks and Internet Systems"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30070&TERMCODE=202000", 
+"lecture_code" : "COMP30070",
+"title" : "Object-Oriented Programming"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30080&TERMCODE=202000", 
+"lecture_code" : "COMP30080",
+"title" : "Computer Systems"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30770&TERMCODE=202000", 
+"lecture_code" : "COMP30770",
+"title" : " Programming for Big Data"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30860&TERMCODE=202000", 
+"lecture_code" : "COMP30860",
+"title" : "Web Development"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30870&TERMCODE=202000", 
+"lecture_code" : "COMP30870",
+"title" : "Graph Algorithms"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30790&TERMCODE=202000", 
+"lecture_code" : "COMP30790",
+"title" : "Industry internship"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30880&TERMCODE=202000", 
+"lecture_code" : "COMP30880",
+"title" : "Software Engineering Project 3"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30920&TERMCODE=202000", 
+"lecture_code" : "COMP30920",
+"title" : "Software & Data Project"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30020&TERMCODE=202000", 
+"lecture_code" : "COMP30020",
+"title" : "Computer Graphics I"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30030&TERMCODE=202000", 
+"lecture_code" : "COMP30030",
+"title" : "Introduction to Artificial Intelligence"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30060&TERMCODE=202000", 
+"lecture_code" : "COMP30060",
+"title" : "Program Construction I"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30900&TERMCODE=202000", 
+"lecture_code" : "COMP30900",
+"title" : "Final Year Project Foundations"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30910&TERMCODE=202000", 
+"lecture_code" : "COMP30910",
+"title" : "FYP: Design and Implementation"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30190&TERMCODE=202000", 
+"lecture_code" : "COMP30190",
+"title" : "Program Construction II"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30220&TERMCODE=202000", 
+"lecture_code" : "COMP30220",
+"title" : "Distributed Systems"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30240&TERMCODE=202000", 
+"lecture_code" : "COMP30240",
+"title" : "Multi-Agent Systems"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30250&TERMCODE=202000", 
+"lecture_code" : "COMP30250",
+"title" : "Parallel and Cluster Computing"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30520&TERMCODE=202000", 
+"lecture_code" : "COMP30520",
+"title" : "Cloud Computing (UG)"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30690&TERMCODE=202000", 
+"lecture_code" : "COMP30690",
+"title" : "Information Theory"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP40010&TERMCODE=202000", 
+"lecture_code" : "COMP40010",
+"title" : "Performance of Computer Systems"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP40370&TERMCODE=202000", 
+"lecture_code" : "COMP40370",
+"title" : "Data Mining"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP47490&TERMCODE=202000", 
+"lecture_code" : "COMP47490",
+"title" : "Machine Learning"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=SCI30080&TERMCODE=202000", 
+"lecture_code" : "SCI30080",
+"title" : "Professional Placement-Science"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30110&TERMCODE=202000", 
+"lecture_code" : "COMP30110",
+"title" : "Spatial Information Systems"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30230&TERMCODE=202000", 
+"lecture_code" : "COMP30230",
+"title" : "Connectionist Computing"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30540&TERMCODE=202000", 
+"lecture_code" : "COMP30540",
+"title" : "Game Development"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP30720&TERMCODE=202000", 
+"lecture_code" : "COMP30720",
+"title" : "Ethical Computer Hacking"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP40020&TERMCODE=202000", 
+"lecture_code" : "COMP40020",
+"title" : "Human Language Technologies"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP40610&TERMCODE=202000", 
+"lecture_code" : "COMP40610",
+"title" : "Information Visualisation"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP40660&TERMCODE=202000", 
+"lecture_code" : "COMP40660",
+"title" : "Advances in Wireless Networking"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP41280&TERMCODE=202000", 
+"lecture_code" : "COMP41280",
+"title" : "Introduction to Information Security"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP47390&TERMCODE=202000", 
+"lecture_code" : "COMP47390",
+"title" : "Mobile App Dev - Cocoa Touch"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP47480&TERMCODE=202000", 
+"lecture_code" : "COMP47480",
+"title" : "Contemporary Software Development"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP47650&TERMCODE=202000", 
+"lecture_code" : "COMP47650",
+"title" : "Deep Learning"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP47660&TERMCODE=202000", 
+"lecture_code" : "COMP47660",
+"title" : "Secure Software Engineering"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=COMP47680&TERMCODE=202000", 
+"lecture_code" : "COMP47680",
+"title" : "Human Computer Interaction"
+},
+{
+"link": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=MODULE&MODULE=MATH30180&TERMCODE=202000", 
+"lecture_code" : "MATH30180",
+"title" : "An Intro to Coding Theory"
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

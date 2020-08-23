@@ -1,0 +1,37 @@
+extends layout.pug
+
+block content
+
+  .container
+    br
+    br
+    br
+    br
+    .container.text-center
+      form(method = "POST" action = "").form-signin.col-md-6.col-sm-10.offset-md-3.offset-sm-1
+        h1.h3.mb-3.font-weight-normal Please sign in
+        label.sr-only(for='inputUsername') Username
+        input#inputEmail.form-control(name = "username" type='text' placeholder='Enter Username')
+        label.sr-only(for='inputPassword') Password
+        input#inputPassword.form-control(name = "password" type='password' placeholder='Password')
+        .checkbox.mb-3
+          label
+            input(type='checkbox' value='remember-me')
+            |  Remember me
+        button.btn.btn-lg.btn-primary.btn-block(type='submit') Sign in
+        p.mt-5.mb-3.text-muted &copy; 2019-2020
+
+
+    if errors 
+      ul
+        for error in errors
+          h6.alert.alert-danger #{error.msg}
+
+    if passport_errors 
+      ul
+        for error in passport_errors 
+          h6.alert.alert-danger #{error}
+
+    if login_prompt
+      ul
+        h1 Your email has now been verifed please Log in

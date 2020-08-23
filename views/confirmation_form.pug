@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+
+  .container(style = "padding-top:50px;")
+    form(method = "POST" action = "")
+      .form-group
+        label(for='email') Email you used to register
+        input.form-control(name = "email" type='email' placeholder='Enter Email')
+      br
+      input.btn.btn-primary(type = "submit",value = "Confirm")
+
+    if errors 
+      ul
+        for error in errors
+          h6.alert.alert-danger #{error.msg}

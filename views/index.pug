@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content 
+
+  .container-fluid(style = "padding: 0;")
+      .jumbotron
+        .container
+        .h1.text-center Welcome To The UCD Underground
+        .h3.text-center A home for the voice of students
+
+      .container
+
+      if request
+        .h4.text-center Please share with friends, more reviews means better student feedback.
+      else 
+        .h4.text-center Sign up now to find the best modules for you and get real advice from students who have already done the modules!
+
+
+	
+

@@ -1,0 +1,40 @@
+extends layout.pug
+
+block content
+
+  .container(style = "padding-top:50px;")
+    form(method = "POST" action = "")
+      .form-group
+        label(for='Username') Username
+        input.form-control(name = "username" type='text' placeholder='e.g Henry_is_a_legend' value=(null=== user ? '' : user.username))
+      .form-group
+        label(for='exampleInputEmail1') UCD Connect Email address
+        input.form-control(name = "email" type='email' aria-describedby='emailHelp' placeholder='e.g damian.dalton@ucdconnect.ie' value=(null=== user ? '' : user.email))
+        small#emailHelp.form-text.text-muted We&apos;ll never share your email with anyone else.
+      .form-group
+        label(for='exampleInputEmail1') Confirm Email address
+        input.form-control(name = "email_confirm" type='email' placeholder='Confirm email')
+        small#emailHelp.form-text.text-muted We&apos;ll never share your email with anyone else.
+      .form-group
+        label(for='First_Name') First Name
+        input.form-control(name = "first_name" type='text' placeholder='Enter First Name' value=(null=== user ? '' : user.first_name))
+      .form-group
+        label(for='Family_Name') Second/Family Name
+        input.form-control(name = "second_name" type='text' placeholder='Enter Surname' value=(null=== user ? '' : user.second_name))
+      .form-group
+        label(for='exampleInputPassword1') Password
+        input.form-control(name = "password" type='password' placeholder='Password')
+        small#emailHelp.form-text.text-muted Password must be longer than 5 letters/numbers and must contain lower and uppercase characters.
+
+      .form-group
+        label(for='exampleInputConfirmPassword1') Confirm Password
+        input.form-control(name = "password_confirm" type='password' placeholder='Confirm Password')
+
+      br
+      input.btn.btn-primary(type = "submit",value = "Submit")
+
+    if errors 
+      ul
+        for error in errors
+          h6.alert.alert-danger #{error.msg}
+     

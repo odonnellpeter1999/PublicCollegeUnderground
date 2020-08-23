@@ -1,0 +1,46 @@
+link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous')
+//link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css')
+link(rel='stylesheet' href='/stylesheets/main.css')
+meta(name='viewport' content='width=device-width, initial-scale=1')
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js')
+nav.navbar.navbar-expand-md.bg-primary.navbar-dark.sticky-top
+  a.navbar-brand(href='/home') UCD Underground
+  button.navbar-toggler.navbar-toggler-right(type='button' data-toggle='collapse' data-target='#navb' aria-expanded='true')
+    span.navbar-toggler-icon
+  #navb.navbar-collapse.collapse.hide
+    ul.navbar-nav
+      li.nav-item
+        a.nav-link(href='/home') Home
+      li.nav-item
+        a.nav-link(href="/about") About
+      if request
+        li.nav-item
+          a.nav-link(href='/modules/top') Top Modules
+        li.nav-item
+          a.nav-link(href='/modules') All Modules
+        li.nav-item
+          a.nav-link(href='/modules/review') Review Module
+    ul.nav.navbar-nav.ml-auto
+      if request
+        li.nav-item
+          a.nav-item.text-white(href = "/user/logout") 
+             span.fas.fa-user
+             |  Log Out  
+      else
+        li.nav-item
+          a.nav-link(href='/user/register')
+            span.fas.fa-user
+            |  Sign Up
+        li.nav-item
+          a.nav-link(href='/user/login')
+            span.fas.fa-sign-in-alt
+            |  Login
+
+
+block content
+
+
+
+

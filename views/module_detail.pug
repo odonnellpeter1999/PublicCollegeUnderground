@@ -1,0 +1,73 @@
+extends layout
+
+
+block content
+
+  br
+  .container.border.rounded.shadow.p-3.bg-white.border-dark
+    h1.text-center #{lecture.title}
+
+  br
+
+  .container.text-justify
+    .row
+      .text-center.border.rounded.shadow.p-3.col-sm-7.col-md-3
+        h4 Material Quality
+        h1 #{lecture.material_quality.toFixed(2)}/10
+        h7 Quality of avaliable resources. e.g lecture slides,recommended books, ease of access of online material.
+      
+      .text-center.border.rounded.shadow.p-3.bg-white.border-dark.col-md-3.col-sm-7
+        h4 Lecture Quality
+        h1 #{lecture.lecture_quality.toFixed(2)}/10
+        h7 Quality of lecture,based on how informative,engaging and relevant they were.
+      
+      .text-center.border.rounded.shadow.p-3.bg-white.border-dark.col-md-3.col-sm-7
+        h4 Grading 
+        h1 #{lecture.grading_rating.toFixed(2)}/10
+        h7 How fair other students thought the grading was.
+      
+      .text-center.border.rounded.shadow.p-3.bg-white.border-dark.col-md-3.col-sm-7
+        h4 Module Difficulty
+        h1 #{lecture.difficultly_rating.toFixed(2)}/10
+        h7 How tough the course material was to cover.
+
+  br
+
+  .container.text-center
+    .row
+      .col.text-center.border.rounded.shadow.p-3.bg-white.border-dark.col-md-offset-1
+        h4 Percentage of students who had this as a core module.
+        h1 #{lecture.isCore.toFixed(0)}%
+
+      .col.text-center.border.rounded.shadow.p-3.bg-white.border-dark.col-md-offset-1
+        h4 Percentage of students who would take this module again.
+        h1 #{lecture.isCore.toFixed(0)}%
+
+
+    br
+    
+
+    a.btn.btn-info(href= lecture.link role='button') Click to go to SisWeb Page
+      
+    br
+    br
+    
+  .container(style = "padding: 0;")
+    .jumbotron
+      h2.text-center Other Students Comments
+      br
+      if review_check
+        each review in reviews
+           .row()
+             .col.shadow.bg-white
+               h6 #{review.tips_and_tricks}
+           br
+      else 
+        h3.alert-danger.alert.border-danger To gain access to more information on these modules you must complete at least 4 reviews.
+     
+
+
+
+
+
+  

@@ -1,0 +1,35 @@
+extends layout
+
+block content
+
+  br
+  br
+  h2.text-center Modules Ranked by Student Reviews
+  .container
+    br
+    h5 Click on Module Title for more information.
+    table.table.border.rounded.shadow.p-3.bg-white
+      thead.thead-light
+        tr
+          th(scope='col') #
+          th(scope='col') Title
+          th(scope='col') Material/Content Rating
+          th(scope='col') Lectures
+          th(scope='col') Grading
+          th(scope='col') Difficulty
+          th(scope='col') Would Take Again
+      tbody
+
+        - var number = 1
+        each lecture in list_lectures
+          tr
+            th(scope='row') #{number++} 
+            td
+              a(href=lecture.url) #{lecture.title}
+            td #{lecture.material_quality.toFixed(2)}/10
+            td #{lecture.lecture_quality.toFixed(2)}/10
+            td #{lecture.grading_rating.toFixed(2)}/10
+            td #{lecture.difficultly_rating.toFixed(2)}/10
+            td #{lecture.would_take_again.toFixed(0)}%
+
+      

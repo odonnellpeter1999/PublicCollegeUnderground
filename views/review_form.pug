@@ -1,0 +1,154 @@
+extends layout
+
+block content
+
+    br
+    .container(style = "padding-top:50px;")
+
+      if errors 
+            ul
+              for error in errors
+                h6.alert.alert-danger #{error.msg}
+
+      if user
+        - var percent = (user.reviews/4)*100
+      
+        h5.text-center Progress Bar
+        if percent < 100
+          .progress
+            .progress-bar(role='progressbar' style= { width:percent + "%"} aria-valuenow='25' aria-valuemin='0' aria-valuemax='100').bg-danger #{percent}% Complete
+        else 
+          .progress
+            .progress-bar(role='progressbar' style= { width: 100 + "%"} aria-valuenow='25' aria-valuemin='0' aria-valuemax='100').bg-success Completed Initial Reviews !!
+
+      br
+      br
+
+      form(method = 'POST' action="")
+
+        h5.text-center Note: To keep the site fair and everyone contributing the same amount we require every member to review at least 4 modules before accessing any feedback.
+        
+        div.form-group
+        label(for='lecture') Module you wish to review
+        select#book.form-control(type='select', placeholder='5' name='lecture' required='true' )
+            - lectures.sort(function(a, b) {let textA = a.lecture_code.toUpperCase(); let textB = b.lecture_code.toUpperCase(); return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;});
+            for lecture in lectures
+              if review
+                option(value=lecture._id, selected=(lecture._id.toString() == review.lecture.toString() ? 'selected' : false)) (#{lecture.lecture_code}) #{lecture.title} 
+              else 
+                option(value=lecture._id) (#{lecture.lecture_code}) #{lecture.title} 
+
+        div.form-group
+          label(for='material_quality') Material Quality: Lecture Slides, Tutorial Material, Given Books/Resources etc any good?
+          select#book.form-control(type='select', placeholder='5' name='material_quality' required='true' )
+                - var number = 0
+                while number < 10
+                 - number++
+                 if review != undefined
+                  if review.material_quality == number
+                    option(value=number selected = number) #{number}
+                  else
+                    option(value=number) #{number}
+                 else
+                   if number == 5
+                     option(value=number selected = number) #{number}
+                   else   
+                     option(value=number) #{number}
+  
+        div.form-group
+          label(for='lecture_quality') Lecture Quality: Were the lectures informative?, Were they worth going to?, Were they engaging?
+          select#book.form-control(type='select', placeholder='5' name='lecture_quality' required='true' )
+               - var number = 0
+                while number < 10
+                 - number++
+                 if review != undefined
+                  if review.lecture_quality == number
+                    option(value=number selected = number) #{number}
+                  else
+                    option(value=number) #{number}
+                 else
+                   if number == 5
+                     option(value=number selected = number) #{number}
+                   else   
+                     option(value=number) #{number}
+  
+        div.form-group
+          label(for='grading_rating') Grading: Did you feel the grading of the module was fair based on the work you put in?
+          select#book.form-control(type='select', placeholder='5' name='grading_rating' required='true' )
+               - var number = 0
+                while number < 10
+                 - number++
+                 if review != undefined
+                  if review.grading_rating == number
+                    option(value=number selected = number) #{number}
+                  else
+                    option(value=number) #{number}
+                 else
+                   if number == 5
+                     option(value=number selected = number) #{number}
+                   else   
+                     option(value=number) #{number}
+                    
+          
+        div.form-group
+          label(for='difficultly_rating') Difficultly: How hard was the module, 1 being possible for someone with no experience, 10 being guaranteed repeat
+          select#book.form-control(type='select', placeholder='5' name='difficultly_rating' required='true' )
+               - var number = 0
+                while number < 10
+                 - number++
+                 if review != undefined
+                  if review.difficultly_rating == number
+                    option(value=number selected = number) #{number}
+                  else
+                    option(value=number) #{number}
+                 else
+                   if number == 5
+                     option(value=number selected = number) #{number}
+                   else   
+                     option(value=number) #{number}
+        
+        div.form-group
+          label(for='isCore') Was it a Core module?
+          select#book.form-control(type='select', name='isCore' required='true' )
+            if review 
+              if review.isCore
+                option(value= "true", selected= 'true') Yes
+                option(value= "false") No
+              else
+                option(value= "false", selected= 'false') No
+                option(value= "true") Yes
+            else 
+              option(value= "false", selected= 'false') No
+              option(value= "true", selected= 'true') Yes
+  
+        div.form-group
+          label(for='would_take_again') Would you take it again?
+          select#book.form-control(type='select', name='would_take_again' required='true' )
+            if review 
+              if review.would_take_again
+                option(value= "true", selected= 'true') Yes
+                option(value= "false") No
+              else
+                option(value= "false", selected= 'false') No
+                option(value= "true") Yes
+            else 
+              option(value= "false", selected= 'false') No
+              option(value= "true", selected= 'true') Yes
+
+
+  
+        div.form-group
+          label(for='tips_and_tricks') Anything else you would like other students to know?
+          if review
+            - var text
+            -text = review.tips_and_tricks
+          textarea#exampleFormControlTextarea1.form-control(rows='5' type = 'textbox' name = 'tips_and_tricks') #{text}
+  
+        br
+        br
+        br
+        input.col.text-center.btn.btn-primary.text-white(type = "submit",value = "Next")
+
+        
+
+                
