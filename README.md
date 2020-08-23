@@ -17,12 +17,14 @@ Still in development aiming to reach production by early September.
 
 ## How to Run Project
 
-# Prerequisites
+### Prerequisites
 
 -NodeJS installed
 -NPM installed
 -VScode installed
 -MongoDB installed locally
+
+### How to Install
 
 Firstly you must clone the project using `git clone` in the directory you wish to clone the file
 
