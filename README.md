@@ -42,9 +42,3 @@ This is to allow the application to send verification emails to users
 
 Now you should be able to use `npm run start` to start the application and view it at http://localhost:3000/home
 
-## Live version
-
-https://ucdunderground.codes/home
-
-This is the current version currently hosted on heroku containing real module data and used by UCD students
-
