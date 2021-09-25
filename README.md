@@ -1,8 +1,6 @@
 # UCDunderground
 Code for the site to allow students to rate their modules and pick the best modules.
 
-Still in development aiming to reach production by early September.
-
 ## Current Features which are implemented are:
 
 - Login and Registration
